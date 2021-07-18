@@ -30,9 +30,7 @@ const crearArchivo = async (base = 1, listar = false, hasta = 10) => {
         // console.log(nombreArch);
 
         return nombreArch;
-    } catch (e) {
-        throw e;
-    }
+    } catch (e) { throw e; }
 }
 
 module.exports = {
